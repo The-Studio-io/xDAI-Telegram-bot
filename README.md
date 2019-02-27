@@ -1,3 +1,6 @@
+![Image title](https://cl.ly/6d5b9bbbf689/Screen%20Shot%202019-02-27%20at%201.43.21%20AM.png)
+
+
 # 🤖xDAI-Telegram-bot
 Repo for an xDAI Telegram bot
 
