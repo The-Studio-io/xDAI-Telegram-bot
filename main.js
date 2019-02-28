@@ -5,6 +5,14 @@ const bot = new Telegraf(botKey);
 
 bot.start((req) => {
     if (req.message.chat.type == 'private') {
+        console.log(req.message.chat);
+        let userID = req.message.chat.id;
+        let username = req.message.chat.username;
+        let firstName = req.message.chat.first_name;
+        let lastName = req.message.chat.last_name;
+        /*
+         * Save user ID and username to database
+        */
         let text = 'Hey! Nice to meet you. I can help you send xDAI tips here on telegram.\n';
             text += 'Try - "/help" to get the list of all the commands.';
         req.reply(text);
