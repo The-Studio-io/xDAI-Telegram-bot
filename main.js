@@ -5,7 +5,7 @@ const bot = new Telegraf(botKey);
 
 bot.start((req) => {
     if (req.message.chat.type == 'private') {
-        let text = 'Hey! Nice to meet you. I help you to do transactions in xDAI on telegram.\n';
+        let text = 'Hey! Nice to meet you. I can help you send xDAI tips here on telegram.\n';
             text += 'Try - "/help" to get the list of all the commands.';
         req.reply(text);
     } else {
@@ -16,8 +16,8 @@ bot.start((req) => {
 });
 
 bot.help((req) => {
-    let text = "Here's all the services I provide:-\n";
-        text += '1. /tip - To tip anyone in groups\n';
+    let text = "Here are all the services I provide:-\n";
+        text += '1. /tip - To tip anyone in a group\n';
         text += '2. /balance - To check your balance\n';
         text += '3. /deposit - To deposit more xDAI\n';
         text += '4. /withdraw - To withdraw xDAI to different address\n\n';
@@ -96,7 +96,7 @@ bot.command('withdraw', (req) => {
         /*
          * get User's address with user ID 
         */
-        req.reply("This feature is coming soon. Follow us to stay updated.");
+        req.reply("This feature is coming soon. Stay tuned!");
     } else {
         req.reply('This command can only be used in personal msgs. try - @xDAITestBot');
     }
