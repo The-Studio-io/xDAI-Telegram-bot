@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/The-Studio-io/xDAI-Telegram-bot#readme",
   "dependencies": {
-    "telegraf": "^3.27.1",
+    "telegraf": "^3.27.1"
   }
 }
