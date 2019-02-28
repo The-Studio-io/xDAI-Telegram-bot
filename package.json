@@ -1,0 +1,22 @@
+{
+  "name": "xdai-telegram-bot",
+  "version": "1.0.0",
+  "description": "xDAI tip bot",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Studio-io/xDAI-Telegram-bot.git"
+  },
+  "author": "Samyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Studio-io/xDAI-Telegram-bot/issues"
+  },
+  "homepage": "https://github.com/The-Studio-io/xDAI-Telegram-bot#readme",
+  "dependencies": {
+    "telegraf": "^3.27.1",
+  }
+}
