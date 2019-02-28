@@ -12,22 +12,22 @@ Let's build a xDAI bot for Telegram. Easily send tips to your friends on Discord
 ## Commands
 Available Commands:
 
-`!Help `
+`/help `
 Will show all the commands
 
-`!bal`
-Check your balance. You will receive a DM.
+`/balance`
+Check your balance.
 
-`!deposit`
-Check your Deposit Address. You will receive a DM.
+`/deposit`
+Check your Deposit Address.
 
-`!tip @userName <xDAI_Amount>/penny/nickel/dime/quarter/dollar`
-Send xDAI to another studio member.
+`/tip @userName <xDAI_Amount>/penny/nickel/dime/quarter/dollar`
+Send xDAI to anyone on telegram just with their username.
 
-`!withdraw Comming Soon`
+`/withdraw Comming Soon`
 You can withdraw to external account. Withdrawal fee is a penny.
 
-`!donate <xDAI_Amount>`
+`/donate <xDAI_Amount>`
 Donate xDAI to Studio Bot to show some support.
 
 
